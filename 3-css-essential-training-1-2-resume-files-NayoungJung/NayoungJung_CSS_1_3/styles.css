@@ -1,0 +1,57 @@
+/*
+#ED6A5A = Terra Cotta (Orange)
+#F4F1BB = Blond
+#9BC1BC = Cambridge Blue
+#5CA4A9 = Cadet Blus
+#E6EBE0 = Platinum (Greyish light green)
+*/
+
+/* Body */ 
+body{
+background: #E6EBE0;
+ font-family: 'Playfair Display', serif;
+}
+
+/*Header & Footer */ 
+header,footer{
+background:#9BC1BC;
+color :white;
+}
+
+/*text*/
+h1, h2 {
+font-family: 'Playfair Display', serif;
+font-weight: 900;
+}
+h1 {
+  font-size: 50px;
+  line-height:10px;
+}
+h2 {
+  font-size: 25px;
+  line-height:20px;
+}
+h3{
+  font-size: 20px;
+  line-height:10px;
+}
+section h2{
+color :#5CA4A9;
+}
+p{
+	font-size: 15px;
+	line-height:15px;
+}
+
+/*link */
+a {
+color: #5CA4A9;
+} 
+a:hover{
+color : #F4F1BB;
+text-decoration: none;
+}
+/*
+.work, .education {
+  background: #EDF2F4;
+}*/

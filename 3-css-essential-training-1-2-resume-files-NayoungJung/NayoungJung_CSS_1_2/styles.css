@@ -1,0 +1,28 @@
+/*
+#ED6A5A = Terra Cotta (Orange)
+#F4F1BB = Blond
+#9BC1BC = Cambridge Blue
+#5CA4A9 = Cadet Blus
+#E6EBE0 = Platinum (Greyish light green)
+*/
+/* Body */ 
+body{
+background: #E6EBE0;
+}
+/*Header & Footer */ 
+header,footer{
+background:#9BC1BC;
+color :white;
+}
+section h2{
+color :#5CA4A9;
+}
+
+/*link */
+a {
+color: #5CA4A9;
+} 
+a:hover{
+color : #F4F1BB;
+text-decoration: none;
+}
