@@ -1,0 +1,157 @@
+/*
+#ED6A5A = Terra Cotta (Orange)
+#F4F1BB = Blond
+#9BC1BC = Cambridge Blue
+#5CA4A9 = Cadet Blus
+#E6EBE0 = Platinum (Greyish light green)
+*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Body */ 
+body{
+background: #E6EBE0;
+font-family: 'Playfair Display', serif;
+margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+h1 {
+  font-size: 50px;
+  padding-top: 50px;
+}
+h2 {
+  font-size: 25px;
+  margin-top: 0;
+}
+h3{
+  font-size: 20px;
+  margin:0;
+  line-height:20px;
+}
+section h2{
+	color :#5CA4A9;
+}
+p{
+	font-size: 15px;
+	line-height:15px;
+}
+a {
+  color: #5CA4A9;
+  padding: 20px;
+  font-weight:900;
+  font-size:17px;
+} 
+a:hover{
+  color : #F4F1BB;
+  text-decoration: none;
+}
+.content-wrap{
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 60px 50px;
+  overflow: hidden;
+}
+.column-narrow {
+  width: 35%;
+  float: left;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height:150px;
+  padding-left: 20px;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+/*----Header & Footer-----*/ 
+
+header{
+  background:#9BC1BC;
+  color :white;
+}
+header h1, header h2 {
+   margin: 0;
+}
+.img {
+ width: 250px;
+ float: left;
+ margin-left: 50px;
+ overflow : auto;
+}
+.logo{
+ margin: 0;
+ margin-top:10px;
+}
+
+footer {
+	background:#9BC1BC;
+	color:white;
+ 	text-align: center;
+ 	padding-bottom:20px;
+}
+footer h2{
+	padding-top: 10px;	
+}
+
+
+/*-----navigation-------*/
+nav {
+ text-align: center;
+ background: #2C6982;
+  position: fixed;
+  top:0;
+  width:100%;
+
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight:700;
+}
+
+/*-----work------*/
+.job-description {
+margin-bottom:25px;
+}
+
+h3~p{
+  margin :0;
+}
+.job-description p: first-of-type{
+margin-top:0;
+}
+.job-description {
+  margin-bottom: 25px;
+}
+
+/*----education----*/
+.date{
+  font-weight:900;
+}
+p + h3 {
+  margin-top : 50px;
+}
+/*----Showcase----*/
+.background{
+	background: url(pro.png) no-repeat;
+}
+.shct{
+	padding :20px;
+	height:100%;
+	width: 70%;
+	color: white;
+	background: rgba(0,0,0,0.6);
+}
